@@ -9,4 +9,5 @@ class Contestant:
         if is_winner:
             print(f"Congratulations {self.first_name} {self.last_name}! You won the sweepstakes competition!!")
         else:
-            print(f"{self.first_name} {self.last_name}, Sorry, you did not win the sweepstakes competition.")
+            print(f"{self.first_name} {self.last_name}, We're Sorry to inform that you "
+                  f"did not win the sweepstakes competition.")
