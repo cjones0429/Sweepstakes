@@ -8,5 +8,5 @@ class MarketingFirm:
         self.manager = manager
 
     def create_sweepstakes(self):
-        name_of_sweepstakes = input("What would you like to call your sweepstakes?")
+        name_of_sweepstakes = input("What is the name of your sweepstakes?")
         pass

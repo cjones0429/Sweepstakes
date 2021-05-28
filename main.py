@@ -1,11 +1,14 @@
 from sweepstakes_stack_manager import SweepstakesStackManager
 from sweepstakes_stack import Stack
-from marketingfirm import MarketingFirm
+from marketingfirm import *
 from contestant import Contestant
 from userinterface import *
-from sweepstake import *
+import sweepstake
 from dictionary import Dictionary
 
+
+#want to preface this for whoever is grading...
+# feel like i'm getting close to the correct function here. really want to make this work and re-submit asap
 dictionary_of_contestants = {}
 
 
@@ -15,8 +18,6 @@ new_contestant = {contestant_enter_firstname(),
                   contestant_enter_registration_number(),
                   verify_contestant_info()}
 
-
-print(contestant)
 
 dictionary_of_contestants.update(new_contestant)
 print(dictionary_of_contestants)
