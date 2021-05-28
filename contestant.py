@@ -3,7 +3,7 @@ class Contestant:
         self.first_name = first_name
         self.last_name = last_name
         self.email_address = email_address
-        self.registration_number = registration_number
+        self.registration_number = int(input("last four digits of phone number"))
 
     def notify_contestants(self, is_winner):
         if is_winner:
